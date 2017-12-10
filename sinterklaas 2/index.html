@@ -15,7 +15,7 @@
 		<script>
 		
 			// Our List of Bars
-			var bars = [
+			var dice = [
 				'<img src="images/1.jpg">',
 				'<img src="images/2.jpg">',
 				'<img src="images/3.jpg">',
@@ -25,20 +25,20 @@
 
 			];
 
-			// Our List of Friends
-			var qoutes = [
-				'Mattan',
-				'Chris',
-				'Lee',
-				'Casey',
-				'that girl you forgot to text back',
-				'Kayne West'
-			];
+			// // Our List of Friends
+			// var qoutes = [
+			// 	'Mattan',
+			// 	'Chris',
+			// 	'Lee',
+			// 	'Casey',
+			// 	'that girl you forgot to text back',
+			// 	'Kayne West'
+			// ];
 
-			var randomNumber = Math.floor(Math.random()*bars.length);
+			var randomNumber = Math.floor(Math.random()*dice.length);
 			
-			var barname = bars[randomNumber];
-			var opdracht = qoutes[randomNumber];
+			var barname = dice[randomNumber];
+			// var opdracht = qoutes[randomNumber];
 
 			document.write("" + barname);
 			
